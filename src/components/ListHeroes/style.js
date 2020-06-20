@@ -5,7 +5,8 @@ export const Container = styled.div`
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding: 20px 10px 10px;
+  padding: 20px 10px 10px 10px;
+  margin-left: 9px;
 
   div {
     flex: auto;

@@ -11,8 +11,8 @@ export default function ListHeroes() {
   return (
     <Container>
       {characters.length === 0 ?
-        (<Title>Nenhum Heroi foi pesquisado</Title>) : 
-        (<Title>Herois Pesquisados</Title>)
+        (<Title>Nenhum Herói foi pesquisado!!!</Title>) : 
+        (<Title>Heróis Pesquisados</Title>)
       }
       <div>
         {characters.length > 0 &&

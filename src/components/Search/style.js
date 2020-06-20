@@ -23,7 +23,8 @@ export const SideMenu = styled.aside`
 
   input {
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px 0 5px;
+    border: 1px;
+    border-radius: 5px 5px 5px 5px;
     height: 44px;
     width: 85%;
     min-width: 167px;

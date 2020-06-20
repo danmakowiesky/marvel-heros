@@ -15,6 +15,7 @@ export default createGlobalStyle`
      height: 100%;
      background: #fff url(${bg}) no-repeat 70%;
     -webkit-font-smoothing: antialiased;
+    overflow: auto;
    }
    #root {
      min-height: 100%;

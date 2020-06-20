@@ -3,18 +3,15 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  align-items: flex-end;
   height: 230px;
-  width: 400px;
+  width: 350px;
   max-height: 230px;
   max-width: 400px;
   background: rgba(1, 2, 3, 0.8);
-  margin: 2px 5px;
+  margin: 2px 15px 10px 5px;
   border-radius: 5px 0 5px 0;
   box-shadow: 0 2px 7px rgba(1, 2, 3, 0.8);
-
-
 
     &:hover {
       transform: translateX(8px);
