@@ -25,7 +25,7 @@ export default function HeroDetails({ match }) {
           <Link to="/">
             <button type="button">Voltar</button>
           </Link>
-          <Link to={`${id}/edit`}>
+          <Link to={`/edit/${id}`}>
             <button type="button">Editar</button>
           </Link>
         </div>
@@ -35,7 +35,7 @@ export default function HeroDetails({ match }) {
             <h1>Descriçāo:</h1>
             {description.trim().length > 0
               ? description.replace(/ï¿½/g, "'")
-              : 'Esse herói nāo possui descriçāo cadastrada, clicando no botäo Editar.'}
+              : 'Esse herói nāo possui descriçāo cadastrada, você mesmo pode escrever uma para ele, clicando no botao editar.'}
           </p>
         </Content>
         <Divider/>

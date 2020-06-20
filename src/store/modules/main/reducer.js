@@ -11,6 +11,12 @@ export default function main(state = INITIAL_STATE, action) {
         draft.charactersList.push(action.payload.character);
         break;
       }
+      case '@main/EDIT_HERO': {
+        const { id } = action.payload.character;
+        const index = draft.charactersList.findIndex(hero => hero.id === id);
+        draft.charactersList[index] = action.payload.character;
+        break;
+      }
       default:
     }
   });

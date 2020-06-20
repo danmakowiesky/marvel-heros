@@ -4,3 +4,10 @@ export function addCharacterToList(character) {
     payload: { character },
   };
 }
+
+export function editHero(character) {
+  return {
+    type: '@main/EDIT_HERO',
+    payload: { character }
+  };
+}
